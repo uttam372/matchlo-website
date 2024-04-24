@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headings{
+    width: 100%;
+     background: linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%), url(new2.jpg);
+     background-position: center;
+     background-size: cover;
+     height: 109vh;
+}
+.nvbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    
+}
+.icon{
+    font-size: 17px;
+    float: left;
+    height: 70px;
+}
+.logo{
+   width: 200px;
+   height: 70px;
+   float: left;
+   color: green;
+   padding-left: 5px;
+   padding-top: 10px;
+   font-size: 30px;
+  
+}
+.menu{
+    
+    width: 10px;
+    float: left;
+    height: 5px;
+}
+ul{
+    
+   float: left;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  padding-left: 5px;
+   
+}
+ul li{
+    margin-right: 10px;
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-right: 250px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: orangered;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    
+}
+ul li a:hover{
+    color: white;
+}
+
+.content{
+    width: 1200px;
+    margin-top: 70px;
+    margin-left: 50px;
+    height: 100px;
+    position: relative;
+    color: white;
+}
+.conthead{
+    margin-bottom: 20px;
+    color: white;
+}
+.para{
+     margin-bottom: 30px;
+     color: darksalmon;
+}
+.join{
+    margin-left: 38px;
+    padding-left: 7px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    background-color: aliceblue;
+    border-radius: 10px;
+   
+    
+}
+ .join a:hover{
+    color: rgb(98, 100, 0);
+}
+.join a{
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.form{
+   width: 250px;
+   height: 300px;
+   background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+   position: absolute;
+   top: -20px; 
+   left: 878px;
+   border-radius: 10px;
+   padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 6px;
+    padding: 8px;
+}
+.form input{
+    width: 235px;
+    height: 30px;
+    background: transparent;
+    border-bottom: 2px solid green;
+    border-top: none;
+    border-right: none;
+    margin-top: 20px;
+    color: white;
+}
+.form input :focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.btn{
+   
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-top: 27px;
+}
+.form a{
+    color: orangered;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn a:hover{
+    color: rgb(47, 255, 75);
+}
+.form lg p{
+    color: white;
+    
+   margin-top: 30px;
+}
