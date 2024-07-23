@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.signuphead{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%), url(image\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.rom {
+    background-color: white; /* Background color of the "rom" box */
+    padding: 20px;
+    border-radius: 10px;
+}
+.rom p {
+    color: black; /* Text color of the <p> elements */
+}
+.rom btn{
+	color: orangered;    /* sign up ka styling kiya gya hai */
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}

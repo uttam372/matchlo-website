@@ -1,0 +1,165 @@
+@charset "UTF-8";
+*{
+    margin: 0;   /* sabke liye margin aur padding 0 kr do */
+    padding: 0;
+}
+.headings{
+    width: 100%; /* taki page pura web ka screen ko cover kr sake */
+     background: linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%), url(new2.jpg); /*background me
+     new2 image dal ke semi transparent kr do  */ 
+     background-position: center;   
+     background-size: cover;
+     height: 109vh;
+}
+.nvbar{      /* nvbar nam ke class/box ka width ko bda kr do */
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    
+}
+.icon{
+    font-size: 17px;  /* uper nvbar wala box ko bda kiya gya hai taki icon class ke under ke content ko 
+                        float left mtlb horizontal kr do */
+    float: left;
+    height: 70px;
+}
+.logo{
+   width: 200px;
+   height: 70px;    /* match lo wala logo ko stylish kiya gya hai yha */
+   float: left;
+   color: green;
+   padding-left: 5px;   /* logo ka sahi jga decide kiya gya hai */
+   padding-top: 10px;
+   font-size: 30px;
+  
+}
+.menu{
+    
+    width: 10px;    /* menu ke under wala element ka font size set kra and horizontal kra */
+    float: left;
+    height: 5px;
+}
+ul{
+      
+   float: left;   /* ul wala list jiske under li wala list hai uska styling kiye hu */
+   display: flex;       /* ul wala box ko flexible kr do taki change kr ske  */
+   justify-content: center;
+   align-items: center;
+  padding-left: 5px;
+   
+}
+ul li{
+    margin-right: 10px;
+    list-style: none;
+    margin-left: 10px;   /* logo ke 10 px dur kr do */
+    margin-top: 25px;       /* upper se 25px niche rakhna */
+    margin-right: 250px;  /* har ek icon ko dur dur kr do  */
+    
+}
+ul li a{
+    text-decoration: none;   /* text ka underline ko hta do */
+    color: orangered;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;  /* jo bhi changes ho 0.4 second me smoothly kr do */
+    
+}
+ul li a:hover{
+    color: white;  /* maouse ko lane pe color white kr do */
+}
+
+.content{
+    width: 1200px;      /* content class jiske under contenthead aur paragraph hai uska styling kiya huwa hai */
+    margin-top: 70px;    
+    margin-left: 50px;
+    height: 100px;
+    position: relative;
+    color: white;
+}
+.conthead{
+    margin-bottom: 20px;
+    color: white;
+}
+.para{                       /* paragraph  ka styling */
+     margin-bottom: 30px;
+     color: darksalmon;
+}
+.join{
+    margin-left: 38px;
+    padding-left: 7px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    background-color: aliceblue;
+    border-radius: 10px;
+   
+    
+}
+ .join a:hover{                 /* sign up button ka styling kiya gya hai */
+    color: rgb(98, 100, 0);
+}
+.join a{
+    color: orangered;    /* sign up ka styling kiya gya hai */
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.form{
+   width: 250px;
+   height: 300px;
+   background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);  /* is class ko semi transparent kr do */
+   position: absolute;
+   top: -20px;     /* form nam ke box/class ko normal position se 20px upper kr do */
+   left: 878px;                                             /* left me shift kr do */
+   border-radius: 10px;  /* corner ko gol kr do */
+   padding: 25px;
+}
+.form h2{
+    width: 220px;                 /* log in here ka styling kiya gya hai */
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 6px;
+    padding: 8px;
+}
+.form input{                /* input type ka styling kra hai */
+    width: 235px;
+    height: 30px;
+    background: transparent;
+    border-bottom: 2px solid green;
+    border-top: none;
+    border-right: none;
+    margin-top: 20px;
+    color: white;
+}
+.form input :focus{
+    outline: none;    /* jb input de to usper jo "enter email" likha hai use hta do  */
+}
+::placeholder{
+    color: white;       /* input ke under inter email likha hai uska color white kr do */
+    font-family: Arial;
+}
+.btn{
+   
+    height: 30px;    /* log in button ka styling kiya huwa hai */
+    width: 70px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-top: 27px;
+}
+.form a{
+    color: orangered;  /* button jo ki text type hai uska decoration kiya gya hai */
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn a:hover{
+    color: rgb(47, 255, 75);   /* button ke uper cruser le jane pr color green kr dena */
+}
+
+
+/*----yha se sign up page ko styling dene suru-----*/
+
